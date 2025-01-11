@@ -6,6 +6,14 @@ body, h1, h2, h3, p, ul, li, a {
     font-family: 'Inter', sans-serif;
 }
 
+/* Ajustements pour un footer en bas de page */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
 body {
     background-color: #f9f9f9;
     color: #222;
@@ -45,6 +53,7 @@ nav ul li a:hover {
 
 /* Section */
 main {
+    flex: 1;
     padding: 40px 20px;
     text-align: center;
 }
@@ -86,7 +95,7 @@ h1, h2 {
 
 /* Pied de page */
 footer {
-    margin-top: 50px;
+    margin-top: auto;
     padding: 20px;
     text-align: center;
     background: #111;
