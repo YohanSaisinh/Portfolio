@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Création d'un jeu de plateau</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: auto;
+        }
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+        }
+        img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            padding: 10px 20px;
+            border: 2px solid #333;
+            border-radius: 8px;
+            color: #333;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        nav a:hover {
+            background: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Création d'un jeu de plateau</h1>
+        <nav>
+            <a href="index.html">Retour à l'accueil</a>
+        </nav>
+    </header>
+    <main>
+        <img src="towa.png" alt="jeu plateau">
+    </main>
+</body>
+</html>
